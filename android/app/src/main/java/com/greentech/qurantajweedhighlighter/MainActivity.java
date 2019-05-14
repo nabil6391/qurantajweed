@@ -25,6 +25,7 @@ public class MainActivity extends AppCompatActivity {
 
 
         tvText.setText(QuranArabicUtils.getTajweed(this, text));
+        tvText.setTypeface(FontCache.get().getFont(this, "me_quran.ttf"));
 
     }
 }
