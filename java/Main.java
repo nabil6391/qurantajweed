@@ -11,7 +11,7 @@ public class Main {
         JTextArea textArea = new JTextArea(10, 30);
 
 
-//        Font font = new Font("Segoe Script", Font.BOLD, 20);
+        Font font = new Font("Segoe Script", Font.BOLD, 20);
         try {
             InputStream stream = ClassLoader.getSystemClassLoader().getResourceAsStream("AmiriQuran.ttf");
             Font font = Font.createFont(Font.TRUETYPE_FONT, stream).deriveFont(48f);
@@ -22,7 +22,7 @@ public class Main {
             e.printStackTrace();
         }
 
-//        textArea.setFont(font);
+        textArea.setFont(font);
 
         String gunnah = "إِنَّهَا عَلَيْهِم مُّؤْصَدَةٌ ";
         String ikhfa = "تَرْمِيهِم بِحِجَارَةٍ مِّن سِجِّيلٍ";
