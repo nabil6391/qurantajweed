@@ -9,17 +9,3 @@ If Allah makes it easy and things go well, the idea is that the output from this
 
 **Note:** this project is still a work in progress. It is by no means complete, nor does it perfectly match the tajweed mus7af yet. It is being open sourced in case people in the community would like to help accelerate its development.
 
-### Exporters
-
-Tajweed contains a set of exporters to be able to export the tajweed data that it collects. Currently, there are 3 of these:
-
-- TextExporter (just outputs in plain text, useful for debugging)
-- ImageExporter (outputs an image)
-- HtmlExporter (outputs html - currently only works on Firefox, see #15).
-
-### Examples
-
-Here is an example using the image exporter:
-
-![Sura Fil, ayah 4](example.png)
-
